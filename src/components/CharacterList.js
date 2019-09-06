@@ -120,7 +120,7 @@ class CharacterList extends React.Component {
           this.state.searchString ?
             <List style={{ position: 'relative', overflow: 'auto', maxHeight: 600 }}>
               {
-                this.state.searchedCharacters.map(character => <Grid item xs={12} sm={6} lg={4} xl={3}>
+                this.state.searchedCharacters.map(character => <Grid item xs={12} sm={12} lg={12} xl={12}>
                   <Character character={character} />
                 </Grid>)
               }
