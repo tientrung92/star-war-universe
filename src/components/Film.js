@@ -76,7 +76,7 @@ class Film extends React.Component {
         <DialogContent>
           <DialogContentText id='alert-dialog-description'>
             <div>
-              <b>{'Title: '}</b> {this.state.film.title}
+              <b>{'Title: '}</b> {this.state.film.title} <br />
               <b>{'Episode Id: '}</b> {this.state.film.episode_id} <br />
               <b>{'Opening Crawl: '}</b> {this.state.film.opening_crawl} <br />
               <b>{'Director: '}</b> {this.state.film.director} <br />
